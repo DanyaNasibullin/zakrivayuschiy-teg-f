@@ -142,7 +142,7 @@
   transform: translateX(-4px);
 }
 
-.main {
+.content {
   display: grid;
   justify-content: center;
   gap: 47px;
