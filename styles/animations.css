@@ -1,4 +1,4 @@
-/* Опишите в этом файле все keyframes для проекта и стили анимаций иконки Like.
+/*Опишите в этом файле все keyframes для проекта и стили анимаций иконки Like.
 
 Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
 ✦ theme-dark — класс тёмной темы
@@ -6,9 +6,50 @@
 ✦ like-icon — для svg-иконки анимированного сердца
 ✦ card__like-button — для кнопки Like рядом с иконкой
 ✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ card__icon-button — для кнопки, оборачивающей иконку
 ✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+.theme-menu__button:disabled::before {
+  animation: arrow-animation 0.5s ease-in-out infinite alternate;
+}
+
+.like-icon.is-liked .heart {
+  animation: increasing-size 0.4s 0.2s ease-in alternate;
+}
+
+.like-icon.is-liked .sparks {
+  animation: visibility 0.4s 0.4s ease-in alternate;
+}
+
+@keyframes arrow-animation {
+  0% {
+    transform: translateX(-4px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes visibility {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes increasing-size {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}
