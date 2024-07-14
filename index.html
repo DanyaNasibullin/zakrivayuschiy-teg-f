@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark" />
   <title>Закрывающий тег</title>
   <link rel="icon" href="svg/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./fonts/fonts.css">
@@ -16,7 +17,7 @@
 <body class="page">
   <header class="header">
     <div class="header__windows">
-      <a class="header__logo" href="#">&lt;/HTML&gt;</a>
+      <a class="header__logo" aria-hidden="true">&lt;/html&gt;</a>
       <h1 class="header__title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -35,6 +36,7 @@
     </div>
   </header>
 </body>
+
 <main class="content">
   <section class="cards cards__item">
     <article class="card">
@@ -43,7 +45,7 @@
       </h2>
       <div class="card__img-container">
         <img src="./images/image.png" alt="Фургончик" class="card__image" />
-        <span class="card__watermark" aria-hidden="true">&lt;/HTML&gt;</span>
+        <span class="card__watermark" aria-hidden="true">&lt;/html&gt;</span>
       </div>
       <div class="card__windows">
         <div class="card__text-container">
@@ -56,8 +58,9 @@
             Место для ваших воспоминаний о начале обучения.
           </p>
         </div>
+      </div>
         <div class="card__button-container">
-          <button class="card__icon-button button"> 
+          <button class="card__icon-button button">
             <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" fill="none" aria-hidden="true">
               <g class="heart">
                 <path class="contour" 
@@ -74,10 +77,10 @@
           <button class="card__like-button button main-button">
             <span class="button__text">Like</span>
           </button> 
-        </div>
       </div>
     </article>
   </section>
+
   <section class="cards cards__item">
     <article class="card">
       <h2 class="card__title">
@@ -85,7 +88,7 @@
       </h2>
       <div class="card__img-container">
         <img src="./images/image.png" alt="Фургончик" class="card__image card__image-sheet" />
-        <span class="card__watermark" aria-hidden="true">&lt;/HTML&gt;</span>
+        <span class="card__watermark" aria-hidden="true">&lt;/html&gt;</span>
       </div>
       <div class="card__windows">
         <div class="card__text-container">
@@ -101,6 +104,7 @@
             Место для ваших воспоминаний о начале первого спринта.
           </p>
         </div>
+      </div>
         <div class="card__button-container">
           <button class="card__icon-button button">
             <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" fill="none" aria-hidden="true">
@@ -120,7 +124,6 @@
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
     </article>
   </section>
   
@@ -144,6 +147,7 @@
             Место для ваших воспоминаний об окончании первого спринта.
           </p>
         </div>
+      </div>
         <div class="card__button-container">
           <button class="card__icon-button button">
             <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" fill="none" aria-hidden="true">
@@ -163,7 +167,6 @@
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
     </article>
   </section>
   
@@ -175,7 +178,7 @@
       </h2>
       <div class="card__img-container">
         <img src="./images/image.png" alt="Фургончик" class="card__image card__image-ideal" />
-        <span class="card__watermark" aria-hidden="true">&lt;desigions&gt;</span>
+        <span class="card__watermark lowercase" aria-hidden="true">&lt;desigions&gt;</span>
       </div>
       <div class="card__windows">
         <div class="card__text-container">
@@ -190,6 +193,7 @@
             Место для ваших воспоминаний о начале второго спринта.
           </p>
         </div>
+      </div>
         <div class="card__button-container">
           <button class="card__icon-button button">
             <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" fill="none" aria-hidden="true">
@@ -209,7 +213,6 @@
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
     </article>
   </section>
   
@@ -220,7 +223,7 @@
       </h2>
       <div class="card__img-container">
         <img src="./images/image.png" alt="Фургончик" class="card__image card__image-near" />
-        <span class="card__watermark" aria-hidden="true">&lt;care&gt;</span>
+        <span class="card__watermark lowercase" aria-hidden="true">care</span>
       </div>
       <div class="card__windows">
         <div class="card__text-container">
@@ -236,6 +239,7 @@
             Место для ваших воспоминаний об окончании второго спринта.
           </p>
         </div>
+      </div>
         <div class="card__button-container">
           <button class="card__icon-button button">
             <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" fill="none" aria-hidden="true">
@@ -255,7 +259,6 @@
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
     </article>
   </section>
   
@@ -266,7 +269,7 @@
       </h2>
       <div class="card__img-container">
         <img src="./images/image.png" alt="Фургончик" class="card__image card__image-strategy" />
-        <span class="card__watermark" aria-hidden="true">&lt;support&gt;</span>
+        <span class="card__watermark lowercase" aria-hidden="true">&lt;support&gt;</span>
       </div>
       <div class="card__windows">
         <div class="card__text-container">
@@ -280,6 +283,7 @@
             Место для ваших воспоминаний о начале третьего спринта.
           </p>
         </div>
+      </div>
         <div class="card__button-container">
           <button class="card__icon-button button" >
             <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" fill="none" aria-hidden="true">
@@ -299,7 +303,6 @@
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
     </article>
   </section>
   
@@ -310,7 +313,7 @@
       </h2>
       <div class="card__img-container">
         <img src="./images/image.png" alt="Фургончик" class="card__image card__image-hands" />
-        <span class="card__watermark" aria-hidden="true">&lt;lifes-style: none;&gt;</span>
+        <span class="card__watermark lowercase" aria-hidden="true">&lt;lifes-style: none;&gt;</span>
       </div>
       <div class="card__windows">
         <div class="card__text-container">
@@ -324,6 +327,7 @@
             Место для ваших воспоминаний об окончании третьего спринта.
           </p>
         </div>
+      </div>
         <div class="card__button-container">
           <button class="card__icon-button button">
             <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" fill="none" aria-hidden="true">
@@ -343,7 +347,6 @@
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
     </article>
   </section>
   
@@ -354,7 +357,7 @@
       </h2>
       <div class="card__img-container">
         <img src="./images/image.png" alt="Фургончик" class="card__image card__image-here" />
-        <span class="card__watermark" aria-hidden="true">&lt;experience&gt;</span>
+        <span class="card__watermark lowercase" aria-hidden="true">&lt;experience&gt;</span>
       </div>
       <div class="card__windows">
         <div class="card__text-container">
@@ -369,9 +372,10 @@
           </p>
           <p class="card__text">
             Место, чтобы остановиться, подумать и написать, что вы чувствуете 
-            в этой точке пути. - Тяжесть, надеюсь, смогу пройти курс...
+            в этой точке пути.
           </p>
         </div>
+      </div>
         <div class="card__button-container">
           <button class="card__icon-button button">
             <svg class="like-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 36" fill="none" aria-hidden="true">
@@ -387,54 +391,28 @@
             <span class="button__text">Like</span>
           </button>
         </div>
-      </div>
     </article>
   </section>  
-  </main> 
-  
-  <footer class="footer">
-    <button class="button_save" onclick="window['dialog-id'].showModal()" aria-controls="dialog-id">
-      <svg class="button__inner-icon disk-icon large-screen-svg" width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill="#000" d="M0 0h1.615v1.615H0zM0 1.615h1.615V3.23H0zM0 3.231h1.615v1.615H0zM0 4.846h1.615v1.615H0zM0 6.461h1.615v1.615H0zM0 8.077h1.615v1.615H0zM0 9.692h1.615v1.615H0zM0 11.308h1.615v1.615H0zM0 12.923h1.615v1.615H0zM0 14.539h1.615v1.615H0zM0 16.154h1.615v1.615H0zM0 17.769h1.615v1.615H0zM0 19.385h1.615V21H0zM17.77 0v1.615h-1.616V0zM16.154 0v1.615h-1.615V0zM14.539 0v1.615h-1.615V0zM12.923 0v1.615h-1.615V0zM11.308 0v1.615H9.693V0zM9.692 0v1.615H8.077V0zM8.077 0v1.615H6.462V0zM6.462 0v1.615H4.847V0zM4.846 0v1.615H3.231V0zM3.23 0v1.615H1.617V0zM19.385 1.616V3.23H17.77V1.616zM4.846 3.23v1.616H3.231V3.23zM4.846 1.615V3.23H3.231V1.615zM4.846 4.846v1.615H3.231V4.846zM16.154 3.231v1.615h-1.615V3.231zM16.154 1.615V3.23h-1.615V1.615zM16.154 4.846v1.615h-1.615V4.846zM12.923 3.23v1.616h-1.615V3.23zM12.923 1.615V3.23h-1.615V1.615zM12.923 4.846v1.615h-1.615V4.846zM16.154 6.462v1.615H14.54V6.462zM14.539 6.462v1.615h-1.615V6.462zM12.924 6.461v1.615h-1.615V6.461zM11.308 6.462v1.615H9.693V6.462zM9.693 6.461v1.615H8.078V6.461zM8.077 6.462v1.615H6.462V6.462zM6.462 6.462v1.615H4.847V6.462zM4.847 6.461v1.615H3.232V6.461zM17.769 11.307v1.615h-1.615v-1.615zM16.153 11.308v1.615h-1.615v-1.615z"/>
-        <path fill="#000" d="M14.538 11.308v1.615h-1.615v-1.615zM12.923 11.307v1.615h-1.615v-1.615zM11.307 11.308v1.615H9.692v-1.615zM9.692 11.307v1.615H8.077v-1.615zM8.076 11.308v1.615H6.461v-1.615zM6.461 11.308v1.615H4.846v-1.615zM4.846 11.307v1.615H3.23v-1.615zM17.77 12.923v1.615h-1.616v-1.615zM4.846 12.923v1.615H3.231v-1.615z"/>
-        <path fill="#000" d="M17.769 14.538v1.615h-1.615v-1.615zM4.846 14.538v1.615H3.23v-1.615zM17.77 16.153v1.615h-1.616v-1.615zM4.846 16.154v1.615H3.231v-1.615zM4.846 17.769v1.615H3.231v-1.615zM17.77 17.769v1.615h-1.616v-1.615zM19.384 19.385V21H17.77v-1.615zM17.77 19.384V21h-1.616v-1.615zM16.154 19.385V21h-1.615v-1.615zM14.538 19.385V21h-1.615v-1.615zM12.923 19.385V21h-1.615v-1.615zM11.307 19.385V21H9.692v-1.615zM9.692 19.385V21H8.077v-1.615zM8.077 19.385V21H6.462v-1.615zM6.461 19.385V21H4.846v-1.615zM4.846 19.385V21H3.231v-1.615zM3.23 19.385V21H1.617v-1.615zM21 21h-1.615v-1.615H21zM21 19.385h-1.615V17.77H21zM21 17.769h-1.615v-1.615H21zM21 16.154h-1.615v-1.615H21zM21 14.538h-1.615v-1.615H21zM21 12.923h-1.615v-1.615H21zM21 11.307h-1.615V9.692H21z"/>
-        <path fill="#000" d="M21 9.693h-1.615V8.078H21zM21 8.077h-1.615V6.462H21zM21 6.462h-1.615V4.847H21zM21 4.846h-1.615V3.231H21z"/>
-      </svg>  
-      <svg class="button__inner-icon disk-icon small-screen-svg" onclick="window.disketteId.showModal()"
-      width="29" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill="#000" d="M.5 0h2.154v2.154H.5zM.5 2.154h2.154v2.154H.5zM.5 4.308h2.154v2.154H.5zM.5 6.462h2.154v2.154H.5z"/>
-        <path fill="#000" d="M.5 8.615h2.154v2.154H.5zM.5 10.769h2.154v2.154H.5zM.5 12.923h2.154v2.154H.5zM.5 15.077h2.154v2.154H.5zM.5 17.231h2.154v2.154H.5zM.5 19.385h2.154v2.154H.5z"/>
-        <path fill="#000" d="M.5 21.538h2.154v2.154H.5zM.5 23.692h2.154v2.154H.5zM.5 25.846h2.154V28H.5zM24.193 0v2.154h-2.154V0z"/>
-        <path fill="#000" d="M22.04 0v2.154h-2.155V0zM19.884 0v2.154H17.73V0zM17.73 0v2.154h-2.154V0z"/>
-        <path fill="#000" d="M15.577 0v2.154h-2.154V0zM13.423 0v2.154H11.27V0zM11.27 0v2.154H9.115V0z"/>
-        <path fill="#000" d="M9.116 0v2.154H6.962V0zM6.96 0v2.154H4.808V0zM4.807 0v2.154H2.653V0zM26.346 2.154v2.154h-2.154V2.154zM6.96 4.308v2.154H4.808V4.308zM6.961 2.154v2.154H4.807V2.154zM6.96 6.462v2.154H4.808V6.462zM22.039 4.308v2.154h-2.154V4.308zM22.04 2.154v2.154h-2.155V2.154zM22.039 6.462v2.154h-2.154V6.462zM17.73 4.307v2.154h-2.154V4.307z"/>
-        <path fill="#000" d="M17.73 2.154v2.154h-2.153V2.154zM17.73 6.461v2.154h-2.154V6.461zM22.04 8.615v2.154h-2.155V8.615zM19.884 8.615v2.154H17.73V8.615zM17.73 8.615v2.154h-2.153V8.615zM15.577 8.615v2.154h-2.154V8.615zM13.423 8.615v2.154H11.27V8.615zM11.27 8.616v2.154H9.116V8.616zM9.116 8.615v2.154H6.962V8.615zM6.961 8.615v2.154H4.807V8.615zM24.193 15.077v2.154h-2.154v-2.154zM22.039 15.077v2.154h-2.154v-2.154zM19.884 15.077v2.154H17.73v-2.154zM17.73 15.076v2.154h-2.154v-2.154z"/>
-        <path fill="#000" d="M15.577 15.077v2.154h-2.154v-2.154zM13.423 15.077v2.154h-2.154v-2.154z"/>
-        <path fill="#000" d="M11.27 15.077v2.154H9.114v-2.154z"/>
-        <path fill="#000" d="M9.116 15.077v2.154H6.962v-2.154zM6.96 15.077v2.154H4.808v-2.154zM24.192 17.231v2.154h-2.154v-2.154z"/>
-        <path fill="#000" d="M6.96 17.23v2.155H4.808V17.23zM24.192 19.385v2.154h-2.154v-2.154zM6.96 19.385v2.154H4.808v-2.154zM24.193 21.539v2.154h-2.154v-2.154z"/>
-        <path fill="#000" d="M6.961 21.538v2.154H4.807v-2.154zM6.961 23.692v2.154H4.807v-2.154zM24.193 23.693v2.154H22.04v-2.154z"/>
-        <path fill="#000" d="M26.346 25.846V28h-2.154v-2.154z"/>
-        <path fill="#000" d="M24.193 25.846V28h-2.154v-2.154zM22.039 25.846V28h-2.154v-2.154zM19.884 25.846V28H17.73v-2.154zM17.73 25.845V28h-2.154v-2.154z"/>
-        <path fill="#000" d="M15.577 25.846V28h-2.154v-2.154zM13.423 25.846V28h-2.154v-2.154z"/>
-        <path fill="#000" d="M11.27 25.846V28H9.114v-2.154z"/>
-        <path fill="#000" d="M9.116 25.846V28H6.962v-2.154zM6.96 25.846V28H4.808v-2.154zM4.807 25.846V28H2.653v-2.154zM28.5 28h-2.154v-2.154H28.5zM28.5 25.846h-2.154v-2.154H28.5z"/>
-        <path fill="#000" d="M28.5 23.693h-2.154v-2.154H28.5zM28.5 21.539h-2.154v-2.154H28.5zM28.5 19.385h-2.154V17.23H28.5zM28.5 17.23h-2.154v-2.154H28.5z"/>
-        <path fill="#000" d="M28.5 15.077h-2.154v-2.154H28.5zM28.5 12.923h-2.154V10.77H28.5zM28.5 10.77h-2.154V8.616H28.5zM28.5 8.615h-2.154V6.461H28.5zM28.5 6.461h-2.154V4.307H28.5z"/>
-      </svg>
-      <span class="button__text"> Сохранить на память </span>
+
+  <button type="button" class="button_save bg button main-button" onclick="window['dialog-id'].showModal()" aria-controls="dialog-id">
+    <svg class="button__inner-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"> 
+      <use href="./svg/floppy-save.svg#floppy-save"/>
+    </svg>
+      <span class="button__text">Сохранить на память</span>
+  </button>
+</main>
+
+<dialog id="dialog-id" class="dialog bg">
+  <div class="dialog__wrapper">
+    <svg class="dialog__disk-icon disk__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">
+      <use href="./svg/floppy-save.svg#floppy-save"/>
+    </svg>
+      <span class="button__text">Вставьте дискету, чтобы продолжить</span>
+    </div>
+    <button class="dialog__button button main-button" onclick="document.getElementById('dialog-id').close()" type="button">
+      <span class="button__text">ok</span>
     </button>
-    <dialog class="dialog" id="dialog-id">
-      <div class="dialog__heading">
-        <svg class="dialog__icon" onclick="window.disketteId.showModal()"
-        width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill="#000" d="M.5.5h3v3h-3zM.5 3.5h3v3h-3zM.5 6.5h3v3h-3zM.5 9.5h3v3h-3zM.5 12.5h3v3h-3zM.5 15.5h3v3h-3zM.5 18.5h3v3h-3zM.5 21.5h3v3h-3zM.5 24.5h3v3h-3zM.5 27.5h3v3h-3zM.5 30.5h3v3h-3zM.5 33.5h3v3h-3zM.5 36.5h3v3h-3zM33.5.5v3h-3v-3zM30.5.5v3h-3v-3zM27.5.5v3h-3v-3zM24.5.5v3h-3v-3zM21.5.5v3h-3v-3zM18.5.5v3h-3v-3zM15.5.5v3h-3v-3zM12.5.5v3h-3v-3zM9.5.5v3h-3v-3zM6.5.5v3h-3v-3zM36.5 3.5v3h-3v-3zM9.5 6.5v3h-3v-3zM9.5 3.5v3h-3v-3zM9.5 9.5v3h-3v-3zM30.5 6.5v3h-3v-3zM30.5 3.5v3h-3v-3zM30.5 9.5v3h-3v-3zM24.5 6.5v3h-3v-3zM24.5 3.5v3h-3v-3zM24.5 9.5v3h-3v-3zM30.5 12.5v3h-3v-3zM27.5 12.5v3h-3v-3zM24.5 12.5v3h-3v-3zM21.5 12.5v3h-3v-3zM18.5 12.5v3h-3v-3zM15.5 12.5v3h-3v-3zM12.5 12.5v3h-3v-3zM9.5 12.5v3h-3v-3zM33.5 21.5v3h-3v-3zM30.5 21.5v3h-3v-3zM27.5 21.5v3h-3v-3zM24.5 21.5v3h-3v-3zM21.5 21.5v3h-3v-3zM18.5 21.5v3h-3v-3zM15.5 21.5v3h-3v-3zM12.5 21.5v3h-3v-3zM9.5 21.5v3h-3v-3zM33.5 24.5v3h-3v-3zM9.5 24.5v3h-3v-3zM33.5 27.5v3h-3v-3zM9.5 27.5v3h-3v-3zM33.5 30.5v3h-3v-3zM9.5 30.5v3h-3v-3zM9.5 33.5v3h-3v-3zM33.5 33.5v3h-3v-3zM36.5 36.5v3h-3v-3zM33.5 36.5v3h-3v-3zM30.5 36.5v3h-3v-3zM27.5 36.5v3h-3v-3zM24.5 36.5v3h-3v-3zM21.5 36.5v3h-3v-3zM18.5 36.5v3h-3v-3zM15.5 36.5v3h-3v-3zM12.5 36.5v3h-3v-3zM9.5 36.5v3h-3v-3zM6.5 36.5v3h-3v-3zM39.5 39.5h-3v-3h3zM39.5 36.5h-3v-3h3zM39.5 33.5h-3v-3h3zM39.5 30.5h-3v-3h3zM39.5 27.5h-3v-3h3zM39.5 24.5h-3v-3h3zM39.5 21.5h-3v-3h3zM39.5 18.5h-3v-3h3zM39.5 15.5h-3v-3h3zM39.5 12.5h-3v-3h3zM39.5 9.5h-3v-3h3z"/>
-          </svg>
-          <h2 class="dialog__title">Вставьте дискету, чтобы продолжить</h2>
-        </div>
-        <button class="dialog__button" onclick="window['dialog-id'].close()">ОК</button>
-    </dialog>
-  </footer>
+</dialog>
   <script src="./scripts/like.js"></script>
 </body>
 </html>

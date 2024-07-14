@@ -8,9 +8,9 @@
   через медиа-запрос пользовательских предпочтений
 */
 
-:root {
-  --font-weight-card-text: 400;
-  --font-weight-card-title: 700;
+:root.theme-light {
+  --font-weight-card-text: "wght" 400;
+  --font-weight-card-title: "wght" 700;
   --themes-background: #ffffff;
   --themes-main-color: #000000;
   --color-like: #ffffff;
@@ -32,8 +32,8 @@
 }
 
 :root.theme-dark {
-  --font-weight-card-text: 465;
-  --font-weight-card-title: 785;
+  --font-weight-card-text: "wght" 465;
+  --font-weight-card-title: "wght" 785;
   --themes-background: #000000;
   --themes-main-color: #00cc14;
   --color-like: #00cc14;
@@ -54,11 +54,10 @@
   linear-gradient(180deg, #007f0c 0.01%, #004306 100%);
 }
 
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --font-weight-card-text: 465;
-    --font-weight-card-title: 785;
+    --font-weight-card-text: "wght" 465;
+    --font-weight-card-title: "wght" 785;
     --themes-background: #000000;
     --themes-main-color: #00cc14;
     --color-like: #00cc14;
@@ -79,4 +78,3 @@
     linear-gradient(180deg, #007f0c 0.01%, #004306 100%);
   }
 }
-
