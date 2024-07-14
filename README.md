@@ -12,9 +12,3 @@
 
 - HTML
 - CSS
-
-
-## Установка
-
-1. git clone https://github.com/DanyaNasibullin/zakrivayuschiy-teg-f.git
-2. Открыть index.html в браузере
