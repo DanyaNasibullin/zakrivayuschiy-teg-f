@@ -46,7 +46,7 @@
 .header__logo {
   text-align: center;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  font-weight: 400; 
+  font-weight: 400;
   font-variation-settings: 'wght' 400;
   line-height: 54px;
   text-decoration: none;
