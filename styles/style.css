@@ -17,7 +17,7 @@
   min-inline-size: 320px;
   min-block-size: 100vb;
   font-family: var(--font-family-main);
-  font-variation-settings: var(--font-weight-card-text);
+  font-variation-settings: 'wght' var(--font-weight-card-text);
   background: var(--background-with-gradient);
   color: var(--themes-main-color);
   box-sizing: border-box;
@@ -159,7 +159,7 @@
 }
 
 .card__title {
-  font-variation-settings: var(--font-weight-card-title);
+  font-variation-settings: 'wght' var(--font-weight-card-title);
   font-size: 18px;
   line-height: 21px;
   color: var(--themes-main-color);
@@ -572,5 +572,5 @@
     text-transform: uppercase;
     border: 2px solid var(--themes-main-color);
     cursor: pointer;
-  } 
-} 
+  }
+}
