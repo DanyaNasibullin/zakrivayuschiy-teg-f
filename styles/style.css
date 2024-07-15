@@ -13,7 +13,6 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
-
 .page {
   min-inline-size: 320px;
   min-block-size: 100vb;
@@ -47,7 +46,8 @@
 .header__logo {
   text-align: center;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  font-weight: 400;
+  font-weight: 400; 
+  font-variation-settings: 'wght' 400;
   line-height: 54px;
   text-decoration: none;
   text-transform: uppercase;
@@ -55,11 +55,12 @@
 
 .header__logo:focus {
   outline: none;
-}
+} 
 
 .header__title {
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   font-weight: 400;
+  font-variation-settings: 'wght' 400;
   line-height: 1.5;
   text-align: center;
   padding-top: 20px;
@@ -118,7 +119,7 @@
   transition: transform 0.3s ease;
   transform-origin: left center;
   transform: scaleX(0);
-}
+} 
 
 .theme-menu__button:focus-visible::after {
   transform: scaleX(1);
@@ -139,7 +140,7 @@
   animation-name: arrow;
   animation-duration: 0.5s;
   transform: translateX(-4px);
-}
+} 
 
 .content {
   display: grid;
@@ -172,7 +173,7 @@
   overflow: hidden;
 }
 
-.card__img-container::before { 
+.card__img-container::before {
   content: "";
   position: absolute;
   top: 0;
@@ -185,11 +186,11 @@
 .card__img-container::after {
   content: "";
   position: absolute;
-  bottom: 0; 
+  bottom: 0;
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: var(--themes-main-color); 
+  background-color: var(--themes-main-color);
 }
 
 .card__image {
@@ -224,7 +225,7 @@
 
 .card__image-saturate {
   filter: saturate(200%);
-}
+} 
 
 .card__watermark {
   text-transform: uppercase;
@@ -234,6 +235,7 @@
   font-size: 14px;
   font-family: var(--font-family-accent);
   font-weight: 400;
+  font-variation-settings: 'wght' 400;
   line-height: 14px;
   mix-blend-mode: hard-light;
   text-shadow: 0 0 2px var(--themes-background),
@@ -248,14 +250,12 @@
   text-transform: lowercase;
 }
 
-@supports (-webkit-text-stroke: 1px var(--themes-background)) or
-  (text-stroke: 1px var(--themes-background))
-{
+@supports (-webkit-text-stroke: 1px var(--themes-background)) or (text-stroke: 1px var(--themes-background)) {
   .card__watermark {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--themes-background);
     text-stroke: 1px var(--themes-background);
-    
+
   }
 }
 
@@ -366,7 +366,7 @@
 
 .like-icon .heart {
   transform-origin: center;
-}
+} 
 
 .main-button {
   display: flex;
@@ -422,7 +422,7 @@
   flex-direction: row;
   width: 335px;
   height: 55px;
-  margin: 0 auto 103px auto; 
+  margin: 0 auto 103px auto;
 }
 
 .dialog[open] {
@@ -470,8 +470,7 @@
   font-size: 14px;
   width: 100%;
   height: 38px;
-}
-
+} 
 .button__text {
   font-family: var(--font-family-accent);
   font-size: 14px;
@@ -492,7 +491,7 @@
 }
 
 .button_save svg use {
-  fill: currentColor; 
+  fill: currentColor;
 }
 
 .bg {
@@ -538,7 +537,7 @@
     row-gap: 26.5px;
     word-spacing: -2px;
   }
-  
+
   .card__text {
     letter-spacing: 0.6px;
     line-height: 21.2px;
@@ -573,5 +572,5 @@
     text-transform: uppercase;
     border: 2px solid var(--themes-main-color);
     cursor: pointer;
-  }
-}
+  } 
+} 
